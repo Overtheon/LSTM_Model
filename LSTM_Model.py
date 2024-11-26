@@ -80,7 +80,7 @@ class LSTM():
         else:
             raise'measure not fund/supported!'
     def show(self):
-        print("-----------------------------input X-------------------------------")
+        print("-----------------------------input x-------------------------------")
         print(self.input_train_x)
         print("-----------------------------input Y-------------------------------")
         print(self.input_train_y)
